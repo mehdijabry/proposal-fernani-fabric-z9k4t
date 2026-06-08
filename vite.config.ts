@@ -10,12 +10,12 @@ export default defineConfig({
   base: basePath,
   plugins: [react()],
   build: {
-    // The build is published at `proposal.mehdijabry.dev/<basePath>/` so file
-    // paths on disk must mirror the URL — otherwise the rewrite rule swallows
-    // every asset request and returns index.html as the JS body. Nest the
-    // output under the base path so dist/public/Fernani-Fabric-z9k4t/index.html
-    // resolves cleanly when Render serves dist/public as the site root.
-    outDir: `dist/public${basePath.replace(/\/$/, '')}`,
+    // Render publishes dist/public as the site root. The proposal-router
+    // rewrites strip the basePath prefix before forwarding, so files on
+    // disk should NOT be nested under <basePath> — they're served from
+    // dist/public/{assets/*, index.html} and the prefix is rebuilt by
+    // Vite's `base` setting purely in the HTML asset URLs.
+    outDir: 'dist/public',
     emptyOutDir: true,
   },
 })
