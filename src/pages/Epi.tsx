@@ -47,7 +47,7 @@ export default function Epi() {
         bulletWords={['Gilets de sécurité', 'combinaisons', 'casques', 'chaussures S3']}
         ctaLabel="Découvrir Le Catalogue"
         ctaHref="#collection"
-        photo="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1600&q=85"
+        photo="https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=1600&q=85"
         accent="hivis"
       />
 
@@ -59,17 +59,17 @@ export default function Epi() {
           {
             title: 'Gilets & HV',
             subtitle: 'EN ISO 20471 · Cl. 2-3',
-            img: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=85',
+            img: 'https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=900&q=85',
           },
           {
             title: 'Combinaisons & Vestes',
             subtitle: 'EN ISO 11611 · EN 343',
-            img: 'https://images.unsplash.com/photo-1521575107034-e0fa0b594529?auto=format&fit=crop&w=900&q=85',
+            img: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=900&q=85',
           },
           {
             title: 'Chaussures & Casques',
             subtitle: 'EN ISO 20345 S3 · EN 397',
-            img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85',
+            img: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=85',
           },
         ]}
       />

@@ -40,7 +40,7 @@ export default function Textile() {
         bulletWords={['Hoodies', 't-shirts', 'polos', 'casquettes']}
         ctaLabel="Découvrir Nos Produits"
         ctaHref="#collection"
-        photo="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1600&q=85"
+        photo="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1600&q=85"
         accent="sand"
       />
 
@@ -51,18 +51,18 @@ export default function Textile() {
         cards={[
           {
             title: 'Hoodies',
-            subtitle: 'Brodés / corporate',
-            img: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=900&q=85',
+            subtitle: 'Professionnels brodés',
+            img: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=900&q=85',
           },
           {
             title: 'T-Shirts',
             subtitle: 'Premium personnalisés',
-            img: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=900&q=85',
+            img: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=85',
           },
           {
             title: 'Polos & Casquettes',
             subtitle: 'Identité corporate',
-            img: 'https://images.unsplash.com/photo-1622445275576-721325763afe?auto=format&fit=crop&w=900&q=85',
+            img: 'https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=900&q=85',
           },
         ]}
       />
