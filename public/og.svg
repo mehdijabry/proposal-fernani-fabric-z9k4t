@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="zellige" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <g fill="#c9a877" fill-opacity="0.08">
+        <path d="M60 0l12 24-12 12-12-12zM60 120l-12-24 12-12 12 12zM0 60l24-12 12 12-12 12zM120 60l-24 12-12-12 12-12zM60 36l24 24-24 24-24-24z"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0a2540"/>
+  <rect width="1200" height="630" fill="url(#zellige)"/>
+  <g transform="translate(600 220)" fill="#f6f3ee">
+    <g transform="translate(-44 -44) scale(0.44)">
+      <path d="M58 22h114l-22 30H82v36h62l-22 30H82v60H46V22h12z"/>
+    </g>
+  </g>
+  <text x="600" y="370" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="56" fill="#f6f3ee" letter-spacing="14">FERNANI</text>
+  <text x="600" y="412" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="22" fill="#f6f3ee" letter-spacing="14">FABRIC</text>
+  <text x="600" y="500" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="40" fill="#c9a877">Built for Work. Made for Comfort.</text>
+  <rect x="540" y="540" width="120" height="2" fill="#c9a877"/>
+</svg>

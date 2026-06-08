@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-marine font-sans antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    @apply bg-sand/40 text-marine-950;
+  }
+  h1, h2, h3, h4 {
+    @apply text-marine-950;
+  }
+}
+
+@layer components {
+  /* Editorial section spacing — premium feel */
+  .section {
+    @apply py-24 md:py-32;
+  }
+  .container-tight {
+    @apply max-w-6xl mx-auto px-6 md:px-8;
+  }
+  .eyebrow {
+    @apply text-xs uppercase tracking-brand text-sand-700 font-medium;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-marine-950 text-cream font-medium text-sm tracking-wider uppercase
+           hover:bg-marine-800 transition-colors duration-300;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-marine-950 text-marine-950 font-medium text-sm tracking-wider uppercase
+           hover:bg-marine-950 hover:text-cream transition-colors duration-300;
+  }
+  .btn-hivis {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-hivis text-marine-950 font-bold text-sm tracking-wider uppercase
+           hover:bg-yellow-400 transition-colors duration-300;
+  }
+}
+
+/* Zellige pattern — discret, jamais envahissant. SVG inline en background. */
+.bg-zellige {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23c9a877' fill-opacity='0.06'%3E%3Cpath d='M40 0l8 16-8 8-8-8zM40 80l-8-16 8-8 8 8zM0 40l16-8 8 8-8 8zM80 40l-16 8-8-8 8-8zM40 24l16 16-16 16-16-16z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.bg-zellige-strong {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23c9a877' fill-opacity='0.18'%3E%3Cpath d='M40 0l8 16-8 8-8-8zM40 80l-8-16 8-8 8 8zM0 40l16-8 8 8-8 8zM80 40l-16 8-8-8 8-8zM40 24l16 16-16 16-16-16z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Hide scrollbar on horizontal scroll strips */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
